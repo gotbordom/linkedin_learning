@@ -1,17 +1,16 @@
 ---
 # https://clang.llvm.org/docs/ClangFormatStyleOptions.html
 # DO NOT MOVE THE LINE BELOW OTHERWISE THESE OPTIONS APPLY TO NON C++ FILES
-Language:             Cpp
-BasedOnStyle:         Google
-ColumnLimit:          80
+Language: Cpp
+BasedOnStyle: Google
+ColumnLimit: 80
 # TODO (AT) Confirm this is only change that is needed for doxegen to not break
-CommentPragmas:       '^/<'
-MaxEmptyLinesToKeep:  1
-IndentWidth:          2
-TabWidth:             8
-UseTab:               Never
-Standard:             Cpp11
+CommentPragmas: "^/<"
+MaxEmptyLinesToKeep: 1
+IndentWidth: 2
+TabWidth: 8
+UseTab: Never
 NamespaceIndentation: None
-BreakBeforeBraces:    Allman
-...
+BreakBeforeBraces: Allman
+---
 
