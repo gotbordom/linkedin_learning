@@ -8,7 +8,11 @@
 
 // project headers
 
-// There is no need to protect anything on this "public library card".
+/**
+ * @brief Library Catelog Card a representation of what libararies used to
+ * quickly lookup books without computers
+ *
+ */
 struct LibraryCatalogCard
 {
   // Could add equality operators, etc.
