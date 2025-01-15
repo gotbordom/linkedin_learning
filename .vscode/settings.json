@@ -71,5 +71,7 @@
         "valarray": "cpp",
         "variant": "cpp",
         "set": "cpp"
-    }
+    },
+    "editor.formatOnSave": true,
+    "C_Cpp.formatting": "clangFormat"
 }
