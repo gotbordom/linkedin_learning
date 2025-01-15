@@ -25,6 +25,7 @@ endif()
 
 # Add the executable
 add_executable(lib_catalog_card src/library_catalog_card.cpp)
+add_executable(prime_number src/prime_number_challenge.cpp)
 
 # link any needed libs
 
