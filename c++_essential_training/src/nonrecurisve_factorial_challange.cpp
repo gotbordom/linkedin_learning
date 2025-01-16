@@ -25,7 +25,7 @@ auto recursive_factorial(unsigned long n) -> unsigned long
 /// @return n! an unsigned long
 auto nonrecursive_factorial(unsigned long n) -> unsigned long
 {
-  auto result = 1;
+  auto result = n;
   while (n > 1)
   {
     result *= n;
@@ -33,6 +33,7 @@ auto nonrecursive_factorial(unsigned long n) -> unsigned long
   }
   return result;
 }
+
 auto main(int argc, char* argv[]) -> int
 {
   // non-recursive factorial challange

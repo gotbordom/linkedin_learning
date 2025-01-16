@@ -27,6 +27,8 @@ endif()
 add_executable(lib_catalog_card src/library_catalog_card.cpp)
 add_executable(prime_number src/prime_number_challenge.cpp)
 add_executable(nonrecurisve_factorial src/nonrecurisve_factorial_challange.cpp)
+add_executable(nonrecurisve_factorial_template src/nonrecursive_factorial_template_challenge.cpp)
+add_executable(nonmember_operators src/nonmember_operators_challenge.cpp)
 
 # link any needed libs
 
