@@ -75,7 +75,8 @@ class Inventory
       infile.getline(buffer, sizeof(buffer));
       std::stringstream ss(buffer);
 
-      // check for empty lines
+      // check for empty lines - NOTE: since it  was  all white space I could
+      // have used strsplit. Good to remember
       if (ss.str().find_first_not_of(' ') != std::string::npos)
       {
         // get the sku
