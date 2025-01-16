@@ -28,8 +28,7 @@ auto nonrecursive_factorial(unsigned long n) -> unsigned long
   auto result = n;
   while (n > 1)
   {
-    result *= n;
-    --n;
+    result *= --n;
   }
   return result;
 }

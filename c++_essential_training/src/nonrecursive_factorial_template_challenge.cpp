@@ -18,8 +18,7 @@ auto nonrecursive_factorial(T n) -> T
   auto result = n;
   while (n > 1)
   {
-    result *= n;
-    --n;
+    result *= --n;
   }
   return result;
 }
