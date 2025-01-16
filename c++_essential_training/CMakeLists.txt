@@ -29,7 +29,7 @@ add_executable(prime_number src/prime_number_challenge.cpp)
 add_executable(nonrecurisve_factorial src/nonrecurisve_factorial_challange.cpp)
 add_executable(nonrecurisve_factorial_template src/nonrecursive_factorial_template_challenge.cpp)
 add_executable(nonmember_operators src/nonmember_operators_challenge.cpp)
-
+add_executable(file_transform src/file_transform_challenge.cpp)
 # link any needed libs
 
 # install them to a spcific location
